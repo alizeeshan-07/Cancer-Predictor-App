@@ -113,7 +113,8 @@ def get_radar_chart(input_data):
         ],
         theta=categories,
         fill='toself',
-        name='Standard Error'
+        name='Standard Error',
+        fillcolor="yellow", opacity=0.4, line=dict(color="yellow")
   ))
   fig.add_trace(go.Scatterpolar(
         r=[
@@ -124,7 +125,8 @@ def get_radar_chart(input_data):
         ],
         theta=categories,
         fill='toself',
-        name='Worst Value'
+        name='Worst Value',
+        fillcolor="blue", opacity=0.4, line=dict(color="blue")
   ))
 
   fig.update_layout(
