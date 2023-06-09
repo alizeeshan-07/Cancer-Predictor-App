@@ -158,7 +158,7 @@ def add_predictions(input_data):
     
   
   st.write("Probability of being benign: ", model.predict_proba(input_array_scaled)[0][0])
-  st.write("Probability of being malicious: ", model.predict_proba(input_array_scaled)[0][1])
+  st.write("Probability of being malignant: ", model.predict_proba(input_array_scaled)[0][1])
   
   st.write("This app can assist medical professionals in making a diagnosis, but should not be used as a substitute for a professional diagnosis.")
 
