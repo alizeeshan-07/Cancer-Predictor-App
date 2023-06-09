@@ -101,7 +101,7 @@ def get_radar_chart(input_data):
           input_data['fractal_dimension_mean']
         ],
         theta=categories,
-        fill='green',
+        fill='toself',
         name='Mean Value'
   ))
   fig.add_trace(go.Scatterpolar(
