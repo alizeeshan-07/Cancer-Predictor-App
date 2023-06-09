@@ -102,7 +102,8 @@ def get_radar_chart(input_data):
         ],
         theta=categories,
         fill='toself',
-        name='Mean Value'
+        name='Mean Value',
+        fillcolor="green"
   ))
   fig.add_trace(go.Scatterpolar(
         r=[
