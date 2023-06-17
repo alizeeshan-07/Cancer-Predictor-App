@@ -1,4 +1,4 @@
-# Breast cancer diagnosis predictor
+# Cancer Predictor App (Breast Cancer)
 
 ## Overview
 
